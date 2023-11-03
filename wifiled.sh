@@ -1,4 +1,4 @@
-!/bin/sh
+#!/bin/sh
 
 PHY_PATH=$(ls /sys/kernel/debug/ieee80211/phy*/mt76 -d)
 echo 0x770 > ${PHY_PATH}/regidx
